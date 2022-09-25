@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/entry_nav_graph"
+    app:startDestination="@id/authFragment">
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.terriconvalleyhackathon.wooppaytips.presentation.fragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_accountFragment_to_myQrFragment"
+            app:destination="@id/myQrFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.terriconvalleyhackathon.wooppaytips.presentation.fragment.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" >
+        <action
+            android:id="@+id/action_authFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myQrFragment"
+        android:name="com.terriconvalleyhackathon.wooppaytips.presentation.fragment.MyQrFragment"
+        android:label="fragment_my_qr"
+        tools:layout="@layout/fragment_my_qr" >
+        <action
+            android:id="@+id/action_myQrFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.terriconvalleyhackathon.wooppaytips.presentation.fragment.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+</navigation>

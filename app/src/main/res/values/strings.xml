@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">wooppaytips</string>
+    <string name="wooppay_tips">Wooppay Tips</string>
+    <string name="log_in">Вход</string>
+    <string name="phone_number">Ваш номер телефона</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_password">Я забыл пароль</string>
+    <string name="no_account">У меня нет аккаунта</string>
+    <string name="log_in_action">Войти</string>
+    <string name="support_team">Служба поддержки</string>
+    <string name="support_agent_icon">support_agent_icon</string>
+    <string name="registration">Регистрация</string>
+    <string name="email">E-mail</string>
+    <string name="have_account">У меня уже есть аккаунт</string>
+
+    <string name="continue_text">Продолжить</string>
+    <string name="enter_sms_code">Введите код из СМС</string>
+    <string name="resend_code">Отправить код повторно</string>
+    <string name="back_button">back button</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="create_password">Придумайте пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="password_have_to_be">Пароль должен содержать:</string>
+    <string name="password_requirements">• Не менее 8 символов\n• Цифры\n• Заглавные и строчные буквы латиницей</string>
+    <string name="main_page">Главная</string>
+    <string name="username">Имя пользователя</string>
+    <string name="change_user_picture"><u>сменить фото профиля</u></string>
+    <string name="donut_goal">Цель сборов</string>
+    <string name="change">изменить</string>
+    <string name="withdrawal_of_money">Вывести деньги на карту</string>
+    <string name="add_card">Добавить карту</string>
+    <string name="my_qr">Мой QR</string>
+    <string name="history">История</string>
+    <string name="qr_advice">Используйте свой QR-код для получения\nдонатов на кошелёк Wooppay Tips</string>
+    <string name="your_personal_qr">Ваш персональный QR-код:</string>
+    <string name="give_qr_advice">Дайте просканировать данный\nQR для получения доната</string>
+    <string name="or">или</string>
+    <string name="print_qr_code">Распечатайте данный QR</string>
+    <string name="get_document">Получить документ</string>
+
+    <string name="fragment_account_balance_text">%1$s тенге</string>
+    <string name="donut">Донат</string>
+    <string name="daily_donut">за этот день \n +53 400 тг</string>
+    <string name="wallet_replenishment">Пополнение кошелька и вывод\nсредств</string>
+
+</resources>
